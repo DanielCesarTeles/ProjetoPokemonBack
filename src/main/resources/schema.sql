@@ -1,0 +1,9 @@
+CREATE TABLE pokemon (
+		 Id BIGINT AUTO_INCREMENT NOT NULL,
+		 Nome VARCHAR(255) NOT NULL,
+		 Geracao int NOT NULL,
+		 Tipo VARCHAR(250) NOT NULL,
+		 Genero VARCHAR(50) NOT NULL,
+         Fraquezas VARCHAR(250) NOT NULL,
+         Vantagens VARCHAR(250) NOT NULL,
+		 PRIMARY KEY (Id));
